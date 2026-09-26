@@ -719,7 +719,7 @@ Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`docs/SECURITY.md`](docs/S
 
 GhostTab is released under the [MIT License](LICENSE).
 
-Copyright © 2026 Arun Singh.
+Copyright © 2026 Lakshya Kurup.
 
 ---
 
