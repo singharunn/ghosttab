@@ -1,0 +1,48 @@
+{
+  "name": "@ghosttab/ui",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Accessible React UI components and design tokens for GhostTab",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./components": "./src/components/index.ts",
+    "./tokens": "./src/tokens/index.ts",
+    "./hooks": "./src/hooks/index.ts"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "dev": "tsc --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@ghosttab/core": "workspace:*",
+    "clsx": "^2.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.0.0"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "design-tokens",
+    "accessibility",
+    "a11y"
+  ]
+}
